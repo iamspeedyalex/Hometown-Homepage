@@ -1,0 +1,1 @@
+In the process of working on this project within Scrimba's built-in tooling. This is for the Frontend Developer Career Path. These files will be replaced with the official ones when it is deployed and shared.
