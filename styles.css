@@ -1,0 +1,152 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'times new', "Noto Sans", sans-serif, system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+}
+
+.hero-section {
+    margin: 0px 0px;
+    padding: 119px;
+    background-image: url(images/waco.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: 0px 0px 3px black;
+}
+
+h1 {
+    background-color: #815355;
+    box-shadow: 0px 0px 4px gray;
+}
+
+h2 {
+    background-color: #C3B299;
+    text-align: center;
+    box-shadow: 0px 0px 4px gray;
+}
+
+span {
+    display: block;
+}
+
+.activity-title {
+    background-color: #CBD4C2;
+    padding: 44px 0px 44px 0px;
+    margin: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #CBD4C2;
+    font-size: 23.5px; 
+}
+
+.activity-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #CBD4C2;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 1px solid #CBD4C2;
+}
+
+.activity-block {
+    background-color: transparent;
+    width: 33.333%;
+    padding: 20px 20px 30px 20px;
+}
+
+.activity-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 0px 3px #333;
+}
+
+.activity-subtitle {
+    min-height: 40px;
+}
+
+span {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: #E63946;
+}
+
+.facts-section {
+    background-color: #C3B299;
+    border-top: 1px solid #CBD4C2;
+    padding: 14px 14px;
+}
+
+.facts-title {
+    list-style: none;
+    text-decoration: underline;
+    padding-bottom: 14px;
+}
+
+.cool-fact {
+    text-align: start;
+    margin: 10px;
+    font-style: italic;
+}
+
+.guide-section {
+    background-color: #815355;
+    color: whitesmoke;
+    text-shadow: 0px 0px 2px #333;
+    margin: 0;
+    padding: 15px;
+}
+
+.guide-block {
+    display: flex;
+    padding: 14px;
+}
+
+.guide-img {
+    display: flex;
+    width: 150px;
+    height: auto;
+    border-radius: 0px 50px;
+    box-shadow: 2px 2px 1px #C3B299;
+}
+
+.guide-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.guide-img:hover {
+    transform: scale(1.1) rotate(5deg);
+    border-radius: 50px 0px;
+    box-shadow: 2px 2px 5px yellow;
+    filter: brightness(5);
+}
